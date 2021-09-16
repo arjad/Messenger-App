@@ -1,0 +1,12 @@
+.input-group-text{
+    background-color: #7952B3;
+    color:white;
+    font-weight: bold;
+    transition-duration: 0.5s;
+    
+}
+.input-group-text:hover{
+    background-color: white;
+    color:#7952B3;
+    border:2px solid #7952B3;
+}

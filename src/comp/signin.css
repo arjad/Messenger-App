@@ -1,0 +1,40 @@
+body{
+    margin: 0px;  
+  }
+
+nav{
+    background: #7952B3;
+    color:white;
+    display: flex;
+    /* justify-content: censter; */
+    align-items: center;
+    position: fixed;
+    top:0px;
+}
+nav .logo{
+    height: 60px;
+    width:76px;
+}
+.google_logo{
+    height:35px;
+    width: 35px;
+    margin-right: 20px;
+}
+.signin_body{
+    height:400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.signin_body .btn{
+    color:#7952B3;
+    background: transparent;
+    border: 1px solid #7952B3;
+    transition-duration: 0.5s;
+}
+.signin_body .btn:hover{
+    color:white;
+    background:  #7952B3;
+    border: 1px solid white;
+}

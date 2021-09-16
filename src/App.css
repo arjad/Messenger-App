@@ -1,0 +1,38 @@
+body{
+  margin: 0px;  
+}
+  
+  .sendMsg {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    bottom: 0;
+    z-index: 1;
+    border-top: 1px solid lightgray;
+    margin-left: -5px;
+    padding: 10px;
+    padding-bottom: 30px;
+    background-color: #fafafa;
+  }
+  
+  .msgs {
+    margin: 110px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  @media (max-width: 775px) {
+    p {
+      font-size: 20px;
+    }
+    
+  }
+  
+  @media (max-width: 500px) {
+    p {
+      font-size: 15px;
+    }
+  }
+  
+  

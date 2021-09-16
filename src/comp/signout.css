@@ -1,0 +1,13 @@
+.signout_btn{
+    color:white;
+    background:#7952B3;
+    border: 1px solid white;
+    transition-duration: 0.5s;
+    float: right;
+}
+.signout_btn:hover{
+    color:#7952B3;
+    background:  white;
+    border: 1px solid #7952B3;
+
+}
